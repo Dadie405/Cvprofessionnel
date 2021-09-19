@@ -1,0 +1,164 @@
+.corps-cv{
+    display: flex;
+    background: lightblue;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: calibri;
+     padding: 10px; 
+     border-width:5px ;                 
+    
+}
+.bloc-gauche{
+    width: 430px;
+    height: 900px;
+    background: linear-gradient(180deg, #3b56a5, #3796c2);
+    white-space: normal;
+    margin-right: 100px;
+    
+
+}
+.skills .title2 {
+    color: rgb(241, 245, 250);
+    margin: 10px 35px;
+    font-size: 16px;
+     
+}
+
+.skills .box{
+    position: relative;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h5{
+    text-transform: uppercase;
+    color: rgb(241, 239, 247);
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 4px 35px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+.skills .box .percent{
+    position: relative;
+    width: 60%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.skills .box .percent div{
+    position: relative;
+    top: 0;
+    left: 00;
+    height: 100%;
+    background: #03a9f4;
+}
+
+
+.bloc-droite{
+    width: 400px;
+    height: 900px;
+    margin-left: -185px;
+    background-color: #ffffff;
+    border-radius: 100px 0px 0px 100px;
+    
+    
+}
+.bloc-droite .title{
+    display: inline-block;
+    color: #3b56a5;
+    width: 10px;
+    font-size: 16px;
+    margin: 10px 20px;
+    font-family: sans-serif;
+    
+}
+.bloc-droite .presentation h3{
+    color: #0c7fb4;
+     text-align: center; 
+}
+.bloc-droite .presentation span{
+  color: #000;
+  text-align: center;
+    
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    
+}
+.about .box .year_company{
+   min-width: 160px; 
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    margin: 13px 10px;
+    font-size: 16px;
+    
+    
+}
+.about .box .text h4{
+     text-transform: uppercase;
+     color: #2a7da2;
+     font-size: 16px; 
+     margin: 12px 22px;
+     border-left: 2px solid rgb(139, 129, 129);
+     height: 33px;
+     padding-left: 5px;
+     display: inline-block;   
+     
+     margin-left: 10px;
+}
+.about p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 100%; 
+     
+}
+.info{
+    padding-top: 0px;
+    margin: 5px 35px;
+}
+.info .icone{
+    display: inline-block;
+    width: 15px;
+    font-size: 38px;
+    
+    
+}
+.info .text{
+    color: rgb(243, 240, 240);
+    font-weight: 300;
+    display: inline-flex;
+    position: relative;
+    list-style: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.title1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.bloc-droite .about .title p{
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 1px;
+    font-size: 16px;
+   
+}
